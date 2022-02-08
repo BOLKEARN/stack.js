@@ -3,7 +3,10 @@
   "version": "1.0.3",
   "description": "Stack Container, close to C++ Stack",
   "main": "stack.js",
-  "scripts": {
+  "scripts": {"start": "tsdx watch",
+    "build": "tsdx build",
+    "publish": "git add . && npm run commit && git push",
+    "commit": "git commit",
     "test": "jest"
   },
   "author": "Arnold Bolke",
