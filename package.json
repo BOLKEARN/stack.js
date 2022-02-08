@@ -3,8 +3,8 @@
   "version": "1.0.3",
   "description": "Stack Container, close to C++ Stack",
   "main": "stack.js",
-  "scripts": {"start": "tsdx watch",
-    "build": "tsdx build",
+  "scripts": {
+    "build": "npm run publish",
     "publish": "git add . && npm run commit && git push",
     "commit": "git commit",
     "test": "jest"
