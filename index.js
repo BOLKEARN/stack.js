@@ -23,8 +23,6 @@ class Stack {
         return this.array[0]
     }
 
-
-
 }
 
 
