@@ -40,4 +40,17 @@ describe('Stack Test', () => {
     });
 
 
+    it("Stack.size()", () => {
+        expect(stack.size()).toBe(0);
+
+        stack.push(Math.random());
+        expect(stack.size()).toBe(1);
+
+        stack.push(Math.random());
+        stack.push(Math.random());
+        expect(stack.size()).toBe(3);
+
+    })
+
+
 });

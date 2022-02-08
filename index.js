@@ -3,8 +3,12 @@ class Stack {
         this.array = []
     }
 
+    size() {
+        return this.array.length
+    }
+    
     empty() {
-        return this.array.length == 0
+        return this.size() == 0
     }
 
     push(e) {
@@ -18,6 +22,8 @@ class Stack {
     top() {
         return this.array[0]
     }
+
+
 
 }
 
