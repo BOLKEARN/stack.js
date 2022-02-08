@@ -1,4 +1,4 @@
-const Stack = require("./index");
+const Stack = require("./stack");
 
 describe('Stack Test', () => {
 
