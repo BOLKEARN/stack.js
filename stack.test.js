@@ -26,14 +26,14 @@ describe('Stack Test', () => {
     it('Stack.push()', () => {
         let r = Math.random();
         stack.push(r);
-        expect(stack.array[0]).toBe(r)
+        expect(stack.top()).toBe(r)
     });
 
 
     it('Stack.pop()', () => {
         let r = Math.random()
         stack.push(r)
-        expect(stack.array[0]).toBe(r)
+        expect(stack.top()).toBe(r)
 
         stack.pop()
         expect(stack.empty()).toBeTruthy();
@@ -49,8 +49,6 @@ describe('Stack Test', () => {
         stack.push(Math.random());
         stack.push(Math.random());
         expect(stack.size()).toBe(3);
-
     })
-
-
+    
 });

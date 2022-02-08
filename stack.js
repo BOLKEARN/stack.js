@@ -1,10 +1,12 @@
 class Stack {
+    #array;
+
     constructor() {
-        this.array = []
+        this.#array = []
     }
 
     size() {
-        return this.array.length
+        return this.#array.length
     }
     
     empty() {
@@ -12,15 +14,15 @@ class Stack {
     }
 
     push(e) {
-        this.array.unshift(e)
+        this.#array.unshift(e)
     }
 
     pop() {
-        this.array.shift()
+        this.#array.shift()
     }
 
     top() {
-        return this.array[0]
+        return this.#array[0]
     }
 
 }
