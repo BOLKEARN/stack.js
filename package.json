@@ -1,6 +1,6 @@
 {
   "name": "@bolkearn/stack.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Stack Container, close to C++ Stack",
   "main": "stack.js",
   "scripts": {
@@ -11,8 +11,7 @@
   "devDependencies": {
     "jest": "^27.5.1"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BOLKEARN/stack.js.git"
