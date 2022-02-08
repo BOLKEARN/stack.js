@@ -1,6 +1,6 @@
 {
   "name": "@bolkearn/stack.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Stack Container, close to C++ Stack",
   "main": "stack.js",
   "scripts": {
